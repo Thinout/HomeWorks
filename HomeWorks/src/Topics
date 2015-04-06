@@ -1,0 +1,42 @@
+24 февраля:
+	1.		https://www.udacity.com/
+			autocompletion, http://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
+			brew, http://brew.sh/
+			tags
+	2. 		Cherry-pick, долгоживущие ветки, схемы разработки
+	3. 		git stash - временная область, отмена изменений
+	4. 		Отмена изменений, редактирование коммитов
+	5. 		Reset
+	
+26 февраля:
+	1.		http://www.vogella.com/tutorials/versioncontrol.html
+			настройка eclipse, перенос проекта в git репозиторий	
+	2. 		Работа с git через eclipse, gitignore, github через eclipse
+	3. 		Github и eclipse, сравнение версий файлов
+	4. 		Задание
+	
+2 марта:
+	1 git.	Репозитории в разных системах	
+	1. 		Настройка git+eclipse и удаление репозитория
+	2. 		Снова создание репозитория в eclipse, клонирование репозитория
+	3. 		Литература, java ojcp 
+			http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=653&get_params=p_id:157
+	4. 		https://www.coursera.org/course/algs4partI
+	5.		Java, массивы, циклы, типы, стек
+	6.		Константа, модификаторы
+
+3 марта:
+	1. 		Операторы и операции, тернарные выражения, библиотека Math, задание Flipping bits
+	2. 		Строки, документация
+	3.		Ввод/вывод, отличие out от err, обертка scanner, запуск java приложений из командной строки
+	4.		Unlimited input, работа со строками, время жизни переменной, блоки, настройка eclipsr save actions – действий при сохранении		
+	5.		Создание метода, массив, циклы, foreach
+	6.		Break, switch
+	
+5 марта:
+	1. 		
+	2. 		
+	3.
+	4.		 		
+	5.		
+	6.			
