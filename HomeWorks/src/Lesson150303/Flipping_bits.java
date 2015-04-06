@@ -31,7 +31,7 @@ public class Flipping_bits {
 			for (int i = 31; i >= 0; i--)
 			{
 				res = res + bits[i]*pow;
-				pow*=2;
+				pow <<= 1;
 			}
 			System.out.println(res);
 		}
