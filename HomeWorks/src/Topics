@@ -64,7 +64,7 @@
 			ограничение типов, которыми можно параметризовать класс
 			Литература: O'Reilly Java Generics
 
-9 апреля:	Design Patterns, связанные с созданием
+9 апреля:	Creational Patterns
 	1. 		Зацепление и связность, принципы, SOLID		
 	2. 		SOLID, блог Теплакова, пример с лампой и кнопкой
 	3. 		Dependency Invertion, пример с лампой и кнопкой, разница между композицией и агрегацией
@@ -76,3 +76,13 @@
 			Abstact Factory, Factory Method
 	5.		Пример Factory Method из жизни (Calendar), Builder, Prototype, Singleton + Multiton
 	6.		Property, подведение итогов по изученному
+
+13 апреля:	Structural Patterns
+	1. 		Adapter	
+	2. 		Bridge
+	3.		Composite, libgdx
+	4.		Цель Composite, Decorator		
+	5.		Facade, http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries
+			Flyweight
+
+	
