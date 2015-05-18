@@ -1,3 +1,15 @@
+/**
+Homework "LSD Sort"
+Course by EPAM Systems
+"The complete development cycle using Java platform"
+
+Task:
+--> Sort the array of 32-bit integer numbers using the LSD algorithm.
+--> Compare the result with Arrays.sort.
+
+Written by Lydia Sokur, 2015
+*/
+
 package lesson150312;
 
 import java.util.Arrays;

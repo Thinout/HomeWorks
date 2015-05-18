@@ -3,7 +3,7 @@
 #### Занятие 150303
 + :white_check_mark: Hakerrank - Flipping Bits [[Задание](https://www.hackerrank.com/challenges/flipping-bits)] [[Решение](HomeWorks/src/Lesson150303/Flipping_bits.java)]
 + :white_check_mark: Вывести строку с использованием форматированного вывода [[Решение](HomeWorks/src/Lesson150303/Printf.java)]
-+ :white_check_mark: Игра "Угадай число" [[Задание](https://github.com/zstudent/HomeWorks/issues/3)] [[Решение]HomeWorks/src/Lesson150303/Guessing.java]
++ :white_check_mark: Игра "Угадай число" [[Задание](https://github.com/zstudent/HomeWorks/issues/3)] [[Решение](HomeWorks/src/Lesson150303/Guessing.java)]
 
 #### Занятие 150305
 + :white_check_mark: Реализовать Deep copy, передавая функции матрицу целых чисел и возвращая новую [[Решение](HomeWorks/src/lesson150305/DeepCopy.java)]: 

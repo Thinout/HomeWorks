@@ -1,3 +1,18 @@
+/**
+Homework "Flipping bits"
+Course by EPAM Systems
+"The complete development cycle using Java platform"
+
+Task (hackerrank.com):
+You will be given a list of 32 bits unsigned integers. 
+You are required to output the list of the unsigned 
+integers you get by flipping bits in its binary 
+representation (i.e. unset bits must be set, and set 
+bits must be unset).
+
+Written by Lydia Sokur, 2015
+ */
+
 package Lesson150303;
 
 public class Flipping_bits {
@@ -35,5 +50,6 @@ public class Flipping_bits {
 			}
 			System.out.println(res);
 		}
+		scanner.close();
 	}
 }

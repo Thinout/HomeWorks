@@ -1,9 +1,20 @@
+/**
+Homework "Formatted output"
+Course by EPAM Systems
+"The complete development cycle using Java platform"
+
+Task:
+Train formatted output.
+
+Written by Lydia Sokur, 2015
+ */
+
 package Lesson150303;
 
 public class Printf {
 	static int sum = 100;
 	static int bytes = 123456789;
-	static String string = "Сумма равна";
+	static String string = "Sum";
 	
 	public static void main(String[] args) {
 		System.out.printf("%s: %d\n", string, sum);

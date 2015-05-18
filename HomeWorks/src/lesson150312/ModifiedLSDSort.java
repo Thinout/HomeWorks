@@ -1,3 +1,15 @@
+/**
+Homework "LSD Sort"
+Course by EPAM Systems
+"The complete development cycle using Java platform"
+
+Task:
+--> Sort the array of 32-bit integer numbers using the LSD algorithm.
+--> Compare the result with Arrays.sort.
+
+Written by Lydia Sokur, 2015
+*/
+
 package lesson150312;
 
 import java.util.Arrays;
@@ -15,15 +27,12 @@ public class ModifiedLSDSort {
 		
 		long quickSortTime = 0, lsdSortTime = 0;
 		
-		long total = 0;
-		long totalOriginal = 0;
-		
 		for(int i = 0; i < ITERATIONS; i++) {
 			
 			long start, stop;
 			
 			int[] dataQ = generate();
-			// Здесь клонирование
+
 			int[] dataLSD = new int[dataQ.length];
 			System.arraycopy(dataQ, 0, dataLSD, 0, dataQ.length);
 			
@@ -37,7 +46,6 @@ public class ModifiedLSDSort {
 			stop = System.nanoTime();
 			lsdSortTime += stop - start;
 			
-			// Проверка на правильность сортировки
 			if (!Arrays.equals(dataQ, dataLSD)) {
 				System.out.println("Arrays are not equal!");
 				break;
@@ -47,8 +55,7 @@ public class ModifiedLSDSort {
 		
 		System.out.println("Quick Sort average time: " + quickSortTime/ITERATIONS);
 		System.out.println("LSD Sort average time: " + lsdSortTime/ITERATIONS);
-		System.out.println("Ratio: " + (double)quickSortTime/(double)lsdSortTime);
-		
+		System.out.println("Ratio: " + (double)quickSortTime/(double)lsdSortTime);		
 	}
 
 	private static void LSDsort(int[] data) {
@@ -65,7 +72,6 @@ public class ModifiedLSDSort {
 			for (int i = 0; i < data.length; i++)
 				aux[count[data[i] >>> b & mask]++] = data[i];
 			
-			// Копирование указателей
 			int temp[] = data;
 			data = aux;
 			aux = temp;
@@ -80,9 +86,8 @@ public class ModifiedLSDSort {
 		Random random = new Random();
 		
 		for (int i = 0; i < data.length; i++) {
-			data[i] = random.nextInt(MAX); // 0 - 999999
-		}
-		
+			data[i] = random.nextInt(MAX);
+		}		
 		return data;
 	}
 	
